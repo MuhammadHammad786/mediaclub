@@ -1,0 +1,371 @@
+.banner {
+    /* background: #BDA9CA; */
+    background-image: linear-gradient(to right, #BDA9CA, #A367C7);
+    /* background: #A367C7; */
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    transition: background-image 1s ease-in-out;
+
+}
+
+footer {
+    background-image: linear-gradient(to right, #BDA9CA, #A367C7);
+
+}
+
+.hero-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /* margin-top: 8%; */
+}
+
+.hero-section .tagline {
+    font-size: 42px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.hero-section .trending h6 {
+    font-size: 22px;
+    color: black;
+}
+
+.hero-cap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.chips span {
+    margin: 0px 5px;
+}
+
+
+.hero-section button,
+.hero-section input,
+.hero-section select {
+    padding: 12px 15px;
+    height: unset !important;
+}
+
+.hero-section button {
+    background-color: #48C7AA;
+    padding: 12px 40px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-img {
+    width: 75%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /* bottom: 80px; */
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease all;
+}
+
+.clientele img {
+    width: 15%;
+    height: 100px;
+}
+
+.clientele .owl-nav {
+    display: none;
+}
+
+.category-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category-row>div {
+    width: 16%;
+    text-align: center;
+    margin: 30px 0px;
+    cursor: pointer;
+}
+
+.category-row>div img {
+    width: 50%;
+}
+
+
+.why-mediaclub {
+    background-color: #BAE9DF;
+}
+
+.why-mediaclub .heading::after {
+    display: none;
+}
+
+.why-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.why-img img {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 20px;
+}
+
+.why-cap h6 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-left: -20px;
+    align-items: center;
+    color: #252E2C;
+}
+
+.why-cap h6::before {
+    content: "\2713";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: #252E2C;
+    margin-right: 10px;
+}
+
+.why-cap p {
+    font-size: 18px;
+}
+
+/* carousel-popular-service */
+.carousel-popular-service .pop-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+
+.carousel-popular-service>div h6 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.carousel-popular-service>div img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+
+}
+
+.mediaclub-guide .blog-img img {
+    width: 100%;
+}
+
+.mediaclub-guide .blog-desc .bold {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+/* top-freelancer */
+.top-freelancer {
+    /* margin: 30px; */
+}
+
+.top-freelancer .testimonial {
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 30px 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-freelancer .testimonial .test-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+.top-freelancer .testimonial .test-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.stars {
+    color: #FEB301;
+    font-size: 20px;
+
+}
+
+/* job-opening  */
+.job-slide {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 5px;
+}
+
+.job-slide .job-img {
+    width: 110px;
+    height: 110px;
+}
+
+.job-slide p {
+    margin-bottom: 0px;
+}
+
+.job-slide .job-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.job-slide .job-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.job-slide .bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job-slide .light {
+    font-size: 18px;
+    color: #555;
+}
+
+.job-slide .s-light {
+    font-size: 14px;
+    color: #555;
+}
+
+.job-slide button {
+    background-color: #48C7AA;
+    color: #fff;
+    padding: 8px !important;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #48C7AA;
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-section .tagline {
+        font-size: 28px;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+
+    .hero-section {
+        padding: 0px 15px;
+        height: 70vh;
+    }
+
+    .hero-section .w-100 {
+        width: unset !important;
+    }
+
+    .hero-section .input-group input,
+    .hero-section .input-group select,
+    .hero-section .input-group button {
+        width: 100%;
+        margin: 2px 0px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .banner-img img,
+    .why-img {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5) !important;
+    }
+
+    .category-row>div {
+        width: 30%;
+        margin: 15px 0px;
+    }
+
+    .category-row p {
+        font-size: 14px;
+    }
+
+    .job-slide {
+        flex-wrap: wrap;
+    }
+
+    .job-cta {
+        width: 100%;
+    }
+
+    .copy-right {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .row>div {
+        margin-top: 20px;
+    }
+}
